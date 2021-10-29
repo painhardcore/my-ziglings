@@ -306,7 +306,7 @@ const exercises = [_]Exercise{
     .{
         .main_file = "058_quiz7.zig",
         .output = "Archer's Point--2->Bridge--1->Dogwood Grove--3->Cottage--2->East Pond--1->Fox Pond",
-        .hint = "This is the biggest program we've seen yet. But you can do it!"
+        .hint = "This is the biggest program we've seen yet. But you can do it!",
     },
     .{
         .main_file = "059_integers.zig",
