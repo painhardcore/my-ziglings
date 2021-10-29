@@ -281,7 +281,7 @@ const exercises = [_]Exercise{
     },
     .{
         .main_file = "052_slices.zig",
-        .output = "Hand1: A 4 K 8 \nHand2: 5 2 Q J",
+        .output = "Hand1: A 4 K 8 Hand2: 5 2 Q J",
     },
     .{
         .main_file = "053_slices2.zig",
@@ -306,7 +306,7 @@ const exercises = [_]Exercise{
     .{
         .main_file = "058_quiz7.zig",
         .output = "Archer's Point--2->Bridge--1->Dogwood Grove--3->Cottage--2->East Pond--1->Fox Pond",
-        .hint = "This is the biggest program we've seen yet. But you can do it!",
+        .hint = "This is the biggest program we've seen yet. But you can do it!"
     },
     .{
         .main_file = "059_integers.zig",
@@ -340,7 +340,7 @@ const exercises = [_]Exercise{
     .{
         .main_file = "066_comptime.zig",
         .output = "Immutable: 12345, 987.654; Mutable: 54321, 456.789; Types: comptime_int, comptime_float, u32, f32",
-        .hint = "It may help to read this one out loud to your favorite stuffed animal until it sinks in completely.",
+        .hint = "It may help to read this one out loud to your favorite stuffed animal until it sinks in completely."
     },
     .{
         .main_file = "067_comptime2.zig",
@@ -681,7 +681,7 @@ const ZiglingStep = struct {
             return error.InvalidOutput;
         }
 
-        print("{s}PASSED:\n{s}{s}\n", .{ green_text, output, reset_text });
+        print("{s}PASSED: {s}{s}\n", .{ green_text, output, reset_text });
     }
 
     // The normal compile step calls os.exit, so we can't use it as a library :(
